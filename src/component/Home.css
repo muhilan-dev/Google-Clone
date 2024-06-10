@@ -39,11 +39,22 @@
 }
 .appsicon{
     font-size: 20px;
-    transition: background-color 0.3s, border-radius 0.3s;
+    /* transition: background-color 0.3s, border-radius 0.3s; */
     padding: 5px;
 }
 .appsicon:hover{
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.045);
     border-radius: 50%;
    
+}
+
+.home_body{
+    flex: 1;
+    display: flex;
+    margin-top: 4%;
+    flex-direction: column;
+}
+.google-image{
+    object-fit: contain;
+    height: 90px;
 }
