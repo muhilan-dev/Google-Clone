@@ -19,6 +19,32 @@
 .mic-icon {
   padding: 6%;
 }
-.search-input > input:focus{
-    outline: 0;
+.search-input > input:focus {
+  outline: 0;
+}
+.search-icon {
+  color: gray;
+}
+.search-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-buttons Button {
+  color: rgb(112, 111, 111);
+  border-color: lightgrey;
+  margin: 5px;
+  padding: 7px 15px;
+  background-color: #f8f8f8;
+  border: 1px solid white;
+  text-transform: inherit;
+}
+
+.search-buttons  Button:hover{
+  border-color: lightgray;
+ color: rgb(77, 76, 76);
+}
+.searchbuttonhidden{
+  display: none !important;
 }
