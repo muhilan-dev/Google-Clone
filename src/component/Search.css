@@ -25,13 +25,13 @@
 .search-icon {
   color: gray;
 }
-.search-buttons {
+.search__buttons {
   margin-top: 30px;
   display: flex;
   justify-content: center;
 }
 
-.search-buttons Button {
+.search__buttons Button {
   color: rgb(112, 111, 111);
   border-color: lightgrey;
   margin: 5px;
@@ -41,10 +41,10 @@
   text-transform: inherit;
 }
 
-.search-buttons  Button:hover{
+.search__buttons Button:hover{
   border-color: lightgray;
  color: rgb(77, 76, 76);
 }
-.searchbuttonhidden{
+.search__buttonsHidden {
   display: none !important;
 }
